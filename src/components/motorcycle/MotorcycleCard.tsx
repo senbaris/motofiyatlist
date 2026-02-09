@@ -7,7 +7,7 @@ interface MotorcycleCardProps {
   id: string
   name: string
   brand: string
-  category: string
+  category?: string
   year: number
   price: number
   previousPrice?: number
@@ -77,7 +77,7 @@ export default function MotorcycleCard({
             {/* Brand & Category */}
             <div className="flex items-center justify-between text-xs text-muted-foreground">
               <span className="font-semibold">{brand}</span>
-              <span>{category}</span>
+              {category && <span>{category}</span>}
             </div>
 
             {/* Model Name */}
