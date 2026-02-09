@@ -1,0 +1,74 @@
+[
+  {
+    "id": "yamaha-mt-07-2024",
+    "name": "MT-07",
+    "brand": "Yamaha",
+    "category": "Naked",
+    "year": 2024,
+    "price": 289000,
+    "previousPrice": 275000,
+    "engineCapacity": 689,
+    "power": 73,
+    "imageUrl": "https://images.unsplash.com/photo-1558981852-426c6c22a060?w=800&q=80"
+  },
+  {
+    "id": "honda-cb650r-2024",
+    "name": "CB650R",
+    "brand": "Honda",
+    "category": "Naked",
+    "year": 2024,
+    "price": 315000,
+    "previousPrice": 310000,
+    "engineCapacity": 649,
+    "power": 95,
+    "imageUrl": "https://images.unsplash.com/photo-1609630875171-b1321377ee65?w=800&q=80"
+  },
+  {
+    "id": "kawasaki-ninja-650-2024",
+    "name": "Ninja 650",
+    "brand": "Kawasaki",
+    "category": "Sport",
+    "year": 2024,
+    "price": 298000,
+    "previousPrice": 298000,
+    "engineCapacity": 649,
+    "power": 68,
+    "imageUrl": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=800&q=80"
+  },
+  {
+    "id": "bmw-g310r-2024",
+    "name": "G 310 R",
+    "brand": "BMW",
+    "category": "Naked",
+    "year": 2024,
+    "price": 245000,
+    "previousPrice": 235000,
+    "engineCapacity": 313,
+    "power": 34,
+    "imageUrl": "https://images.unsplash.com/photo-1609630875171-b1321377ee65?w=800&q=80"
+  },
+  {
+    "id": "yamaha-r7-2024",
+    "name": "YZF-R7",
+    "brand": "Yamaha",
+    "category": "Sport",
+    "year": 2024,
+    "price": 335000,
+    "previousPrice": 325000,
+    "engineCapacity": 689,
+    "power": 73,
+    "imageUrl": "https://images.unsplash.com/photo-1558981852-426c6c22a060?w=800&q=80"
+  },
+  {
+    "id": "kawasaki-z900-2024",
+    "name": "Z900",
+    "brand": "Kawasaki",
+    "category": "Naked",
+    "year": 2024,
+    "price": 425000,
+    "previousPrice": 410000,
+    "engineCapacity": 948,
+    "power": 125,
+    "imageUrl": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=800&q=80"
+  }
+]
