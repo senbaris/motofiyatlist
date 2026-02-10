@@ -30,9 +30,15 @@ import { KawasakiDirectScraper } from './scrapers/kawasaki-direct-scraper.js'
 const supabaseUrl = process.env.VITE_SUPABASE_URL || ''
 const supabaseServiceKey = process.env.SUPABASE_SERVICE_KEY || ''
 
+console.log('🔍 Environment check:')
+console.log('  VITE_SUPABASE_URL:', supabaseUrl ? '✅ Set' : '❌ Missing')
+console.log('  SUPABASE_SERVICE_KEY:', supabaseServiceKey ? '✅ Set' : '❌ Missing')
+
 if (!supabaseUrl || !supabaseServiceKey) {
-  console.error('❌ Missing Supabase configuration')
+  console.error('\n❌ Missing Supabase configuration')
   console.log('Please set VITE_SUPABASE_URL and SUPABASE_SERVICE_KEY environment variables')
+  console.log('\nFor GitHub Actions, add them as repository secrets:')
+  console.log('  Settings → Secrets and variables → Actions → New repository secret')
   process.exit(1)
 }
 
