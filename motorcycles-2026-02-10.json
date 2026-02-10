@@ -1,0 +1,978 @@
+[
+  {
+    "name": "C 400 GT (Triple Black)",
+    "brand": "BMW",
+    "category": "Scooter",
+    "year": 2025,
+    "price": 744875,
+    "engineCapacity": 400
+  },
+  {
+    "name": "C 400 GT (Style Exclusive)",
+    "brand": "BMW",
+    "category": "Scooter",
+    "year": 2025,
+    "price": 762550,
+    "engineCapacity": 400
+  },
+  {
+    "name": "C 400 X (Triple black)",
+    "brand": "BMW",
+    "category": "Scooter",
+    "year": 2025,
+    "price": 638825,
+    "engineCapacity": 400
+  },
+  {
+    "name": "C 400 X (Style Rugged)",
+    "brand": "BMW",
+    "category": "Scooter",
+    "year": 2025,
+    "price": 661550,
+    "engineCapacity": 400
+  },
+  {
+    "name": "F 800 GS (Triple Black)",
+    "brand": "BMW",
+    "category": "Adventure",
+    "year": 2025,
+    "price": 939920,
+    "engineCapacity": 800
+  },
+  {
+    "name": "F 900 GS (GS Trophy)",
+    "brand": "BMW",
+    "category": "Adventure",
+    "year": 2025,
+    "price": 1046560,
+    "engineCapacity": 895
+  },
+  {
+    "name": "F 900 GS (Passion)",
+    "brand": "BMW",
+    "category": "Adventure",
+    "year": 2025,
+    "price": 1120960,
+    "engineCapacity": 895
+  },
+  {
+    "name": "F 900 GS Adventure (Metalik Siyah)",
+    "brand": "BMW",
+    "category": "Adventure",
+    "year": 2025,
+    "price": 1160640,
+    "engineCapacity": 895
+  },
+  {
+    "name": "F 900 GS Adventure (Ride Pro)",
+    "brand": "BMW",
+    "category": "Adventure",
+    "year": 2025,
+    "price": 1175520,
+    "engineCapacity": 895
+  },
+  {
+    "name": "F 900 R (Snapper Rocks)",
+    "brand": "BMW",
+    "category": "Naked",
+    "year": 2025,
+    "price": 833280,
+    "engineCapacity": 895
+  },
+  {
+    "name": "F 900 R (Sport)",
+    "brand": "BMW",
+    "category": "Touring",
+    "year": 2025,
+    "price": 875440,
+    "engineCapacity": 895
+  },
+  {
+    "name": "F 900 XR (Triple Black)",
+    "brand": "BMW",
+    "category": "Naked",
+    "year": 2025,
+    "price": 957280,
+    "engineCapacity": 895
+  },
+  {
+    "name": "R 1300 GS (Option 719 Tramuntana)",
+    "brand": "BMW",
+    "category": "Adventure",
+    "year": 2025,
+    "price": 1929440,
+    "engineCapacity": 1254
+  },
+  {
+    "name": "R 1300 GS (GS Trophy) - (ASA - Automated Shift Assistant)",
+    "brand": "BMW",
+    "category": "Adventure",
+    "year": 2025,
+    "price": 1860000,
+    "engineCapacity": 1254
+  },
+  {
+    "name": "R 1300 GS (Triple Black) - (ASA - Automated Shift Assistant)",
+    "brand": "BMW",
+    "category": "Adventure",
+    "year": 2025,
+    "price": 1812880,
+    "engineCapacity": 1254
+  },
+  {
+    "name": "R 1300 GS (Option 719 Tramuntana) - (ASA - Automated Shift Assistant)",
+    "brand": "BMW",
+    "category": "Adventure",
+    "year": 2025,
+    "price": 1988960,
+    "engineCapacity": 1254
+  },
+  {
+    "name": "R 1300 GS Adventure (Triple Black)",
+    "brand": "BMW",
+    "category": "Adventure",
+    "year": 2025,
+    "price": 1954240,
+    "engineCapacity": 1254
+  },
+  {
+    "name": "R 1300 GS Adventure (Option 719 Karakorum)",
+    "brand": "BMW",
+    "category": "Adventure",
+    "year": 2025,
+    "price": 2065840,
+    "engineCapacity": 1254
+  },
+  {
+    "name": "R 1300 GS Adventure (Kırmızı) + (Tel Jant) - (ASA - Automated Shift Assistant)",
+    "brand": "BMW",
+    "category": "Adventure",
+    "year": 2025,
+    "price": 1969120,
+    "engineCapacity": 1254
+  },
+  {
+    "name": "R 1300 GS Adventure (GS Trophy) - (ASA - Automated Shift Assistant)",
+    "brand": "BMW",
+    "category": "Adventure",
+    "year": 2025,
+    "price": 2031120,
+    "engineCapacity": 1254
+  },
+  {
+    "name": "R 1300 GS Adventure (Triple Black) - (ASA - Automated Shift Assistant)",
+    "brand": "BMW",
+    "category": "Adventure",
+    "year": 2025,
+    "price": 2013760,
+    "engineCapacity": 1254
+  },
+  {
+    "name": "R 1300 GS Adventure (Option 719 Karakorum) - (ASA - Automated Shift Assistant)",
+    "brand": "BMW",
+    "category": "Adventure",
+    "year": 2025,
+    "price": 2125360,
+    "engineCapacity": 1254
+  },
+  {
+    "name": "R 1300 RT (Metalik Yarış Mavisi )",
+    "brand": "BMW",
+    "category": "Touring",
+    "year": 2025,
+    "price": 2070800,
+    "engineCapacity": 1254
+  },
+  {
+    "name": "R 1300 RT (Triple Black)",
+    "brand": "BMW",
+    "category": "Touring",
+    "year": 2025,
+    "price": 2088160,
+    "engineCapacity": 1254
+  },
+  {
+    "name": "R 1300 RT (Option 719 Camargue)",
+    "brand": "BMW",
+    "category": "Touring",
+    "year": 2025,
+    "price": 2222080,
+    "engineCapacity": 1254
+  },
+  {
+    "name": "R 1300 RT (Alpine (Beyaz) III) - (ASA - Automated Shift Asistant)",
+    "brand": "BMW",
+    "category": "Touring",
+    "year": 2025,
+    "price": 1998880,
+    "engineCapacity": 1254
+  },
+  {
+    "name": "R 1300 R (Mavi) (Snapper Rocks) - (ASA - Automated Shift Asistant)",
+    "brand": "BMW",
+    "category": "Naked",
+    "year": 2025,
+    "price": 1418560,
+    "engineCapacity": 1254
+  },
+  {
+    "name": "R 1300 RS (Option 719 Cuyamaca) - (ASA - Automated Shift Asistant)",
+    "brand": "BMW",
+    "category": "Naked",
+    "year": 2025,
+    "price": 1691360,
+    "engineCapacity": 1254
+  },
+  {
+    "name": "R 12 (Metalik Siyah)",
+    "brand": "BMW",
+    "category": "Naked",
+    "year": 2025,
+    "price": 1160640
+  },
+  {
+    "name": "R 12 nineT (Metalik Siyah)",
+    "brand": "BMW",
+    "category": "Naked",
+    "year": 2025,
+    "price": 1334240
+  },
+  {
+    "name": "R 12 nineT (San Remo Metalik Yeşil)",
+    "brand": "BMW",
+    "category": "Naked",
+    "year": 2025,
+    "price": 1349120
+  },
+  {
+    "name": "R 12 G/S (Light Beyaz)",
+    "brand": "BMW",
+    "category": "Naked",
+    "year": 2025,
+    "price": 1319360
+  },
+  {
+    "name": "R 18 Classic",
+    "brand": "BMW",
+    "category": "Naked",
+    "year": 2025,
+    "price": 1899680
+  },
+  {
+    "name": "R 18 Transcontinental",
+    "brand": "BMW",
+    "category": "Naked",
+    "year": 2025,
+    "price": 2301440
+  },
+  {
+    "name": "K 1600 GT (Metalik Siyah)",
+    "brand": "BMW",
+    "category": "Sport",
+    "year": 2025,
+    "price": 1907120,
+    "engineCapacity": 1600
+  },
+  {
+    "name": "K 1600 GT (Sport)",
+    "brand": "BMW",
+    "category": "Touring",
+    "year": 2025,
+    "price": 1954240,
+    "engineCapacity": 1600
+  },
+  {
+    "name": "K 1600 GT (Option 719 Blue Ridge Mountain Metalik) + (Option 719 Sele + Option 719 Classic Jant)",
+    "brand": "BMW",
+    "category": "Sport",
+    "year": 2025,
+    "price": 2152640,
+    "engineCapacity": 1600
+  },
+  {
+    "name": "K 1600 GTL (Metalik Siyah)",
+    "brand": "BMW",
+    "category": "Sport",
+    "year": 2025,
+    "price": 2055920,
+    "engineCapacity": 1600
+  },
+  {
+    "name": "K 1600 GTL (Exclusive)",
+    "brand": "BMW",
+    "category": "Sport",
+    "year": 2025,
+    "price": 2117920,
+    "engineCapacity": 1600
+  },
+  {
+    "name": "K 1600 GTL (Option 719 Blue Ridge Mountain Metalik) + (Option 719 Sele + Option 719 Classic Jant)",
+    "brand": "BMW",
+    "category": "Sport",
+    "year": 2025,
+    "price": 2311360,
+    "engineCapacity": 1600
+  },
+  {
+    "name": "K 1600 B (Metalik Siyah)",
+    "brand": "BMW",
+    "category": "Sport",
+    "year": 2025,
+    "price": 1993920,
+    "engineCapacity": 1600
+  },
+  {
+    "name": "K 1600 B (Exclusive)",
+    "brand": "BMW",
+    "category": "Sport",
+    "year": 2025,
+    "price": 2018720,
+    "engineCapacity": 1600
+  },
+  {
+    "name": "K 1600 B (Option 719 Ionic Gümüş Metalik) + (Option 719 Sele + Option 719 Classic Jant)",
+    "brand": "BMW",
+    "category": "Sport",
+    "year": 2025,
+    "price": 2232000,
+    "engineCapacity": 1600
+  },
+  {
+    "name": "K 1600 Grand America (Metalik Siyah)",
+    "brand": "BMW",
+    "category": "Sport",
+    "year": 2025,
+    "price": 2142720,
+    "engineCapacity": 1600
+  },
+  {
+    "name": "K 1600 Grand America (Exclusive)",
+    "brand": "BMW",
+    "category": "Sport",
+    "year": 2025,
+    "price": 2170000,
+    "engineCapacity": 1600
+  },
+  {
+    "name": "S 1000 R (M Motorsport Carbon) + Hafif Alaşım Jant",
+    "brand": "BMW",
+    "category": "Touring",
+    "year": 2025,
+    "price": 1597120,
+    "engineCapacity": 999
+  },
+  {
+    "name": "S 1000 RR (M Motorsport) + (Carbon Jant)",
+    "brand": "BMW",
+    "category": "Sport",
+    "year": 2025,
+    "price": 1998880,
+    "engineCapacity": 999
+  },
+  {
+    "name": "M 1000 R (M Competition) + (Carbon Jant + Carbon Paketi)",
+    "brand": "BMW",
+    "category": "Naked",
+    "year": 2025,
+    "price": 2127840,
+    "engineCapacity": 999
+  },
+  {
+    "name": "M 1000 RR (M Competition) + (Carbon Paketi + Carbon Jant)",
+    "brand": "BMW",
+    "category": "Sport",
+    "year": 2025,
+    "price": 2995840,
+    "engineCapacity": 999
+  },
+  {
+    "name": "M 1000 XR (M Competition) + (Carbon Paketi + Carbon Jant)",
+    "brand": "BMW",
+    "category": "Naked",
+    "year": 2025,
+    "price": 2452720,
+    "engineCapacity": 999
+  },
+  {
+    "name": "NEO’s Çift Bataryalı",
+    "brand": "Yamaha",
+    "year": 2024,
+    "price": 144500
+  },
+  {
+    "name": "RayZR",
+    "brand": "Yamaha",
+    "year": 2024,
+    "price": 154500
+  },
+  {
+    "name": "Tricity 300",
+    "brand": "Yamaha",
+    "year": 2025,
+    "price": 690500,
+    "engineCapacity": 300
+  },
+  {
+    "name": "NMAX 125",
+    "brand": "Yamaha",
+    "category": "Scooter",
+    "year": 2025,
+    "price": 290500,
+    "engineCapacity": 125
+  },
+  {
+    "name": "NMAX 125 Tech MAX",
+    "brand": "Yamaha",
+    "category": "Scooter",
+    "year": 2025,
+    "price": 307000,
+    "engineCapacity": 125
+  },
+  {
+    "name": "XMAX 250",
+    "brand": "Yamaha",
+    "category": "Scooter",
+    "year": 2025,
+    "price": 377500,
+    "engineCapacity": 250
+  },
+  {
+    "name": "XMAX 250 Tech MAX",
+    "brand": "Yamaha",
+    "category": "Scooter",
+    "year": 2025,
+    "price": 415500,
+    "engineCapacity": 250
+  },
+  {
+    "name": "XMAX 250 Tech MAX+",
+    "brand": "Yamaha",
+    "category": "Scooter",
+    "year": 2025,
+    "price": 443500,
+    "engineCapacity": 250
+  },
+  {
+    "name": "XMAX 300 Tech MAX",
+    "brand": "Yamaha",
+    "category": "Scooter",
+    "year": 2025,
+    "price": 607500,
+    "engineCapacity": 300
+  },
+  {
+    "name": "TMAX Tech MAX",
+    "brand": "Yamaha",
+    "category": "Scooter",
+    "year": 2025,
+    "price": 1241500
+  },
+  {
+    "name": "R125",
+    "brand": "Yamaha",
+    "year": 2025,
+    "price": 371500,
+    "engineCapacity": 125
+  },
+  {
+    "name": "R25",
+    "brand": "Yamaha",
+    "year": 2025,
+    "price": 427000,
+    "engineCapacity": 2500
+  },
+  {
+    "name": "R3",
+    "brand": "Yamaha",
+    "year": 2025,
+    "price": 569000
+  },
+  {
+    "name": "R7",
+    "brand": "Yamaha",
+    "year": 2024,
+    "price": 723000
+  },
+  {
+    "name": "R9",
+    "brand": "Yamaha",
+    "year": 2025,
+    "price": 1212000
+  },
+  {
+    "name": "MT-125",
+    "brand": "Yamaha",
+    "category": "Naked",
+    "year": 2025,
+    "price": 361000,
+    "engineCapacity": 125
+  },
+  {
+    "name": "MT-25",
+    "brand": "Yamaha",
+    "category": "Naked",
+    "year": 2025,
+    "price": 399000,
+    "engineCapacity": 2500
+  },
+  {
+    "name": "MT-07",
+    "brand": "Yamaha",
+    "category": "Naked",
+    "year": 2025,
+    "price": 711000,
+    "engineCapacity": 700
+  },
+  {
+    "name": "MT-07 Y-AMT",
+    "brand": "Yamaha",
+    "category": "Naked",
+    "year": 2025,
+    "price": 722500,
+    "engineCapacity": 700
+  },
+  {
+    "name": "MT-09",
+    "brand": "Yamaha",
+    "category": "Naked",
+    "year": 2025,
+    "price": 1071000,
+    "engineCapacity": 900
+  },
+  {
+    "name": "MT-09 SP",
+    "brand": "Yamaha",
+    "category": "Naked",
+    "year": 2025,
+    "price": 1148500,
+    "engineCapacity": 900
+  },
+  {
+    "name": "MT-09 Y-AMT",
+    "brand": "Yamaha",
+    "category": "Naked",
+    "year": 2025,
+    "price": 1083000,
+    "engineCapacity": 900
+  },
+  {
+    "name": "Tracer 7",
+    "brand": "Yamaha",
+    "category": "Adventure",
+    "year": 2025,
+    "price": 802000
+  },
+  {
+    "name": "Tracer 9",
+    "brand": "Yamaha",
+    "category": "Adventure",
+    "year": 2025,
+    "price": 1090500
+  },
+  {
+    "name": "Tracer 9 Y-AMT",
+    "brand": "Yamaha",
+    "category": "Adventure",
+    "year": 2025,
+    "price": 1123500
+  },
+  {
+    "name": "Tracer 9 GT (Yan Çantalı)",
+    "brand": "Yamaha",
+    "category": "Adventure",
+    "year": 2025,
+    "price": 1226000
+  },
+  {
+    "name": "Tracer 9 GT+ (Yan Çantalı)",
+    "brand": "Yamaha",
+    "category": "Adventure",
+    "year": 2025,
+    "price": 1467500
+  },
+  {
+    "name": "XSR 900 GP",
+    "brand": "Yamaha",
+    "category": "Retro/Classic",
+    "year": 2025,
+    "price": 1067500,
+    "engineCapacity": 900
+  },
+  {
+    "name": "Ténéré 700",
+    "brand": "Yamaha",
+    "category": "Adventure",
+    "year": 2025,
+    "price": 868000,
+    "engineCapacity": 700
+  },
+  {
+    "name": "Ténéré 700 (Alçaltılmış Ver.)",
+    "brand": "Yamaha",
+    "category": "Adventure",
+    "year": 2025,
+    "price": 868000,
+    "engineCapacity": 700
+  },
+  {
+    "name": "PW50",
+    "brand": "Yamaha",
+    "year": 2026,
+    "price": 126500,
+    "engineCapacity": 5000
+  },
+  {
+    "name": "CB 500X",
+    "brand": "Honda",
+    "category": "Adventure",
+    "year": 2024,
+    "price": 275000,
+    "engineCapacity": 471,
+    "power": 47
+  },
+  {
+    "name": "CBR 650R",
+    "brand": "Honda",
+    "category": "Sport",
+    "year": 2024,
+    "price": 385000,
+    "engineCapacity": 649,
+    "power": 95
+  },
+  {
+    "name": "CRF 1100L Africa Twin",
+    "brand": "Honda",
+    "category": "Adventure",
+    "year": 2024,
+    "price": 575000,
+    "engineCapacity": 1084,
+    "power": 102
+  },
+  {
+    "name": "NINJA H2R",
+    "brand": "Kawasaki",
+    "category": "Sport",
+    "year": 2026,
+    "price": 5379000
+  },
+  {
+    "name": "NINJA ZX-6R",
+    "brand": "Kawasaki",
+    "category": "Sport",
+    "year": 2026,
+    "price": 1156000
+  },
+  {
+    "name": "NINJA ZX-4R",
+    "brand": "Kawasaki",
+    "category": "Sport",
+    "year": 2026,
+    "price": 796000
+  },
+  {
+    "name": "NINJA ZX-4RR",
+    "brand": "Kawasaki",
+    "category": "Sport",
+    "year": 2026,
+    "price": 851000
+  },
+  {
+    "name": "nınja 650",
+    "brand": "Kawasaki",
+    "category": "Sport",
+    "year": 2026,
+    "price": 742000,
+    "engineCapacity": 650
+  },
+  {
+    "name": "NINJA 500",
+    "brand": "Kawasaki",
+    "category": "Sport",
+    "year": 2026,
+    "price": 582000,
+    "engineCapacity": 500
+  },
+  {
+    "name": "NİNJA 500 SE",
+    "brand": "Kawasaki",
+    "category": "Sport",
+    "year": 2026,
+    "price": 620000,
+    "engineCapacity": 500
+  },
+  {
+    "name": "NINJA H2 SX",
+    "brand": "Kawasaki",
+    "category": "Sport",
+    "year": 2026,
+    "price": 2288000
+  },
+  {
+    "name": "NINJA H2 SX SE",
+    "brand": "Kawasaki",
+    "category": "Sport",
+    "year": 2026,
+    "price": 2550000
+  },
+  {
+    "name": "nınja 1100sx",
+    "brand": "Kawasaki",
+    "category": "Sport",
+    "year": 2026,
+    "price": 1406000
+  },
+  {
+    "name": "nınja 1100sx se",
+    "brand": "Kawasaki",
+    "category": "Sport",
+    "year": 2026,
+    "price": 1543000
+  },
+  {
+    "name": "Z900RS",
+    "brand": "Kawasaki",
+    "category": "Naked",
+    "year": 2026,
+    "price": 1148000
+  },
+  {
+    "name": "Z900RS SE",
+    "brand": "Kawasaki",
+    "category": "Naked",
+    "year": 2026,
+    "price": 1159000
+  },
+  {
+    "name": "Z650RS",
+    "brand": "Kawasaki",
+    "category": "Naked",
+    "year": 2026,
+    "price": 726000
+  },
+  {
+    "name": "z650",
+    "brand": "Kawasaki",
+    "category": "Naked",
+    "year": 2026,
+    "price": 682000
+  },
+  {
+    "name": "Z500",
+    "brand": "Kawasaki",
+    "category": "Naked",
+    "year": 2026,
+    "price": 532000
+  },
+  {
+    "name": "Z500 SE",
+    "brand": "Kawasaki",
+    "category": "Naked",
+    "year": 2026,
+    "price": 565000
+  },
+  {
+    "name": "z900",
+    "brand": "Kawasaki",
+    "category": "Naked",
+    "year": 2026,
+    "price": 1018000
+  },
+  {
+    "name": "z900se",
+    "brand": "Kawasaki",
+    "category": "Naked",
+    "year": 2026,
+    "price": 1124000
+  },
+  {
+    "name": "VULCAN S",
+    "brand": "Kawasaki",
+    "category": "Cruiser",
+    "year": 2026,
+    "price": 758000
+  },
+  {
+    "name": "ELIMINATOR 500 SE",
+    "brand": "Kawasaki",
+    "category": "Cruiser",
+    "year": 2026,
+    "price": 598000,
+    "engineCapacity": 500
+  },
+  {
+    "name": "ELIMINATOR 500",
+    "brand": "Kawasaki",
+    "category": "Cruiser",
+    "year": 2026,
+    "price": 563000,
+    "engineCapacity": 500
+  },
+  {
+    "name": "VERSYS 650",
+    "brand": "Kawasaki",
+    "category": "Adventure",
+    "year": 2026,
+    "price": 793000,
+    "engineCapacity": 650
+  },
+  {
+    "name": "versys 1100",
+    "brand": "Kawasaki",
+    "category": "Adventure",
+    "year": 2026,
+    "price": 1302000,
+    "engineCapacity": 1100
+  },
+  {
+    "name": "versys 1100 se",
+    "brand": "Kawasaki",
+    "category": "Adventure",
+    "year": 2026,
+    "price": 1608000,
+    "engineCapacity": 1100
+  },
+  {
+    "name": "NINJA 7 HYBRID",
+    "brand": "Kawasaki",
+    "category": "Sport",
+    "year": 2026,
+    "price": 673000
+  },
+  {
+    "name": "Z7 HYBRID",
+    "brand": "Kawasaki",
+    "category": "Naked",
+    "year": 2026,
+    "price": 673000
+  },
+  {
+    "name": "BRUTE FORCE 750",
+    "brand": "Kawasaki",
+    "year": 2026,
+    "price": 941000,
+    "engineCapacity": 750
+  },
+  {
+    "name": "MULE PRO-DX",
+    "brand": "Kawasaki",
+    "year": 2026,
+    "price": 1588000
+  },
+  {
+    "name": "MULE PRO-MX",
+    "brand": "Kawasaki",
+    "year": 2026,
+    "price": 1083000
+  },
+  {
+    "name": "MULE PRO-DXT",
+    "brand": "Kawasaki",
+    "year": 2026,
+    "price": 1749000
+  },
+  {
+    "name": "STX 160",
+    "brand": "Kawasaki",
+    "year": 2026,
+    "price": 884000,
+    "engineCapacity": 160
+  },
+  {
+    "name": "STX 160 X",
+    "brand": "Kawasaki",
+    "year": 2026,
+    "price": 905000,
+    "engineCapacity": 160
+  },
+  {
+    "name": "STX 160 LX",
+    "brand": "Kawasaki",
+    "year": 2026,
+    "price": 993000,
+    "engineCapacity": 160
+  },
+  {
+    "name": "ULTRA 160 LX-S",
+    "brand": "Kawasaki",
+    "year": 2026,
+    "price": 1333000,
+    "engineCapacity": 160
+  },
+  {
+    "name": "ULTRA 160 LX",
+    "brand": "Kawasaki",
+    "year": 2026,
+    "price": 1450000,
+    "engineCapacity": 160
+  },
+  {
+    "name": "ULTRA 310 X",
+    "brand": "Kawasaki",
+    "year": 2026,
+    "price": 1508000,
+    "engineCapacity": 310
+  },
+  {
+    "name": "ULTRA 310 LX-S",
+    "brand": "Kawasaki",
+    "year": 2026,
+    "price": 1567000,
+    "engineCapacity": 310
+  },
+  {
+    "name": "ULTRA 310 LX",
+    "brand": "Kawasaki",
+    "year": 2026,
+    "price": 1654000,
+    "engineCapacity": 310
+  },
+  {
+    "name": "kx65",
+    "brand": "Kawasaki",
+    "category": "Off-Road",
+    "year": 2026,
+    "price": 304000
+  },
+  {
+    "name": "kx85",
+    "brand": "Kawasaki",
+    "category": "Off-Road",
+    "year": 2026,
+    "price": 369000
+  },
+  {
+    "name": "kx85l",
+    "brand": "Kawasaki",
+    "category": "Off-Road",
+    "year": 2026,
+    "price": 382000
+  },
+  {
+    "name": "kx250",
+    "brand": "Kawasaki",
+    "category": "Off-Road",
+    "year": 2026,
+    "price": 619000
+  },
+  {
+    "name": "kx250x",
+    "brand": "Kawasaki",
+    "category": "Off-Road",
+    "year": 2026,
+    "price": 625000
+  },
+  {
+    "name": "kx450",
+    "brand": "Kawasaki",
+    "category": "Off-Road",
+    "year": 2026,
+    "price": 808000
+  },
+  {
+    "name": "kx450x",
+    "brand": "Kawasaki",
+    "category": "Off-Road",
+    "year": 2026,
+    "price": 816000
+  }
+]

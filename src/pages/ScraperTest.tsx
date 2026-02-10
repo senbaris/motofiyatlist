@@ -3,12 +3,14 @@ import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import MotorcycleCard from '@/components/motorcycle/MotorcycleCard'
 import { Button } from '@/components/ui/button'
-import { scrapeAllBrands } from '@/lib/scrapers'
+import { ScraperManager } from '@/lib/scrapers'
 import type { ParsedMotorcycle } from '@/lib/parsers/types'
-import { Loader2, Download, RefreshCw } from 'lucide-react'
+import type { ScraperStats } from '@/lib/scrapers/scraper-manager'
+import { Loader2, Download, RefreshCw, Clock } from 'lucide-react'
 
 export default function ScraperTest() {
   const [motorcycles, setMotorcycles] = useState<ParsedMotorcycle[]>([])
+  const [stats, setStats] = useState<ScraperStats | null>(null)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
 
@@ -17,8 +19,10 @@ export default function ScraperTest() {
     setError(null)
 
     try {
-      const data = await scrapeAllBrands()
-      setMotorcycles(data)
+      const manager = new ScraperManager()
+      const result = await manager.scrapeAll()
+      setMotorcycles(result.motorcycles)
+      setStats(result.stats)
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Scraping failed')
     } finally {
@@ -37,15 +41,12 @@ export default function ScraperTest() {
     URL.revokeObjectURL(url)
   }
 
-  const stats = {
-    total: motorcycles.length,
-    byBrand: motorcycles.reduce((acc, m) => {
-      acc[m.brand] = (acc[m.brand] || 0) + 1
-      return acc
-    }, {} as Record<string, number>),
-    avgPrice: motorcycles.length > 0
-      ? Math.round(motorcycles.reduce((sum, m) => sum + m.price, 0) / motorcycles.length)
-      : 0,
+  const displayStats = stats || {
+    totalMotorcycles: motorcycles.length,
+    byBrand: {},
+    duration: 0,
+    errors: [],
+    timestamp: new Date(),
   }
 
   return (
@@ -108,32 +109,48 @@ export default function ScraperTest() {
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
               <div className="bg-muted/50 p-6 rounded-lg">
                 <div className="text-sm text-muted-foreground mb-1">Toplam Model</div>
-                <div className="text-3xl font-bold">{stats.total}</div>
+                <div className="text-3xl font-bold">{displayStats.totalMotorcycles}</div>
               </div>
 
               <div className="bg-muted/50 p-6 rounded-lg">
-                <div className="text-sm text-muted-foreground mb-1">Ortalama Fiyat</div>
-                <div className="text-3xl font-bold">{stats.avgPrice.toLocaleString('tr-TR')} ₺</div>
+                <div className="text-sm text-muted-foreground mb-1 flex items-center gap-2">
+                  <Clock className="h-4 w-4" />
+                  Süre
+                </div>
+                <div className="text-3xl font-bold">{(displayStats.duration / 1000).toFixed(2)}s</div>
               </div>
 
               <div className="bg-muted/50 p-6 rounded-lg col-span-2">
                 <div className="text-sm text-muted-foreground mb-2">Marka Dağılımı</div>
                 <div className="flex gap-4 flex-wrap">
-                  {Object.entries(stats.byBrand).map(([brand, count]) => (
-                    <div key={brand} className="flex items-center gap-2">
-                      <span className="font-semibold">{brand}:</span>
-                      <span className="text-muted-foreground">{count}</span>
+                  {Object.entries(displayStats.byBrand).map(([brand, brandStats]) => (
+                    <div key={brand} className="flex flex-col">
+                      <span className="font-semibold">{brand}</span>
+                      <span className="text-xs text-muted-foreground">
+                        {brandStats.count} model • Ort: {brandStats.avgPrice.toLocaleString('tr-TR')} ₺
+                      </span>
                     </div>
                   ))}
                 </div>
               </div>
+
+              {displayStats.errors.length > 0 && (
+                <div className="col-span-4 bg-destructive/10 border border-destructive text-destructive px-4 py-3 rounded">
+                  <strong>Uyarılar:</strong>
+                  <ul className="list-disc list-inside mt-2">
+                    {displayStats.errors.map((err, i) => (
+                      <li key={i} className="text-sm">{err}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </div>
           )}
 
           {/* Results */}
           {motorcycles.length > 0 ? (
             <div className="space-y-12">
-              {Object.entries(stats.byBrand).map(([brand]) => {
+              {Object.entries(displayStats.byBrand).map(([brand]) => {
                 const brandMotorcycles = motorcycles.filter(m => m.brand === brand)
 
                 return (

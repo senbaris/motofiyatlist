@@ -1,0 +1,92 @@
+[
+  {
+    "name": "G 310 R",
+    "brand": "BMW",
+    "category": "Naked",
+    "year": 2024,
+    "price": 245000,
+    "engineCapacity": 313,
+    "power": 34
+  },
+  {
+    "name": "G 310 GS",
+    "brand": "BMW",
+    "category": "Adventure",
+    "year": 2024,
+    "price": 258000,
+    "engineCapacity": 313,
+    "power": 34
+  },
+  {
+    "name": "F 900 R",
+    "brand": "BMW",
+    "category": "Naked",
+    "year": 2024,
+    "price": 485000,
+    "engineCapacity": 895,
+    "power": 105
+  },
+  {
+    "name": "F 900 XR",
+    "brand": "BMW",
+    "category": "Adventure",
+    "year": 2024,
+    "price": 525000,
+    "engineCapacity": 895,
+    "power": 105
+  },
+  {
+    "name": "S 1000 R",
+    "brand": "BMW",
+    "category": "Naked",
+    "year": 2024,
+    "price": 765000,
+    "engineCapacity": 999,
+    "power": 165
+  },
+  {
+    "name": "S 1000 RR",
+    "brand": "BMW",
+    "category": "Sport",
+    "year": 2024,
+    "price": 895000,
+    "engineCapacity": 999,
+    "power": 207
+  },
+  {
+    "name": "S 1000 XR",
+    "brand": "BMW",
+    "category": "Adventure",
+    "year": 2024,
+    "price": 825000,
+    "engineCapacity": 999,
+    "power": 165
+  },
+  {
+    "name": "R 1250 GS",
+    "brand": "BMW",
+    "category": "Adventure",
+    "year": 2024,
+    "price": 925000,
+    "engineCapacity": 1254,
+    "power": 136
+  },
+  {
+    "name": "R 1250 GS Adventure",
+    "brand": "BMW",
+    "category": "Adventure",
+    "year": 2024,
+    "price": 1050000,
+    "engineCapacity": 1254,
+    "power": 136
+  },
+  {
+    "name": "R 1250 RT",
+    "brand": "BMW",
+    "category": "Touring",
+    "year": 2024,
+    "price": 975000,
+    "engineCapacity": 1254,
+    "power": 136
+  }
+]

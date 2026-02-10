@@ -3,10 +3,16 @@
  * Central export for all brand-specific scrapers
  */
 
+// Frontend scrapers (sample data for UI testing)
 export { BMWScraper } from './brands/bmw-scraper'
+export { BMWAPIScraper } from './brands/bmw-api-scraper'
 export { YamahaScraper } from './brands/yamaha-scraper'
 export { HondaScraper } from './brands/honda-scraper'
 export { KawasakiScraper } from './brands/kawasaki-scraper'
+
+// Puppeteer scrapers moved to scripts/scrapers/ (backend only)
+
+export { ScraperManager } from './scraper-manager'
 
 import { BMWScraper } from './brands/bmw-scraper'
 import { YamahaScraper } from './brands/yamaha-scraper'
@@ -14,7 +20,7 @@ import { HondaScraper } from './brands/honda-scraper'
 import { KawasakiScraper } from './brands/kawasaki-scraper'
 
 /**
- * Get all available scrapers
+ * Get all available scrapers (legacy)
  */
 export function getAllScrapers() {
   return {
@@ -26,7 +32,7 @@ export function getAllScrapers() {
 }
 
 /**
- * Run all scrapers and collect data
+ * Run all scrapers and collect data (legacy - use ScraperManager instead)
  */
 export async function scrapeAllBrands() {
   const scrapers = getAllScrapers()
