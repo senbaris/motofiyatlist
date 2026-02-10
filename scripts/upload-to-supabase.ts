@@ -11,9 +11,14 @@
  *   npm run scrape:upload
  */
 
-// Load environment variables from .env.local
+// Load environment variables from .env.local (only in local development)
 import dotenv from 'dotenv'
-dotenv.config({ path: '.env.local' })
+import { existsSync } from 'fs'
+
+// Load .env.local if it exists (local development), otherwise use process.env (CI/GitHub Actions)
+if (existsSync('.env.local')) {
+  dotenv.config({ path: '.env.local' })
+}
 
 import { createClient } from '@supabase/supabase-js'
 import { BMWBorusanScraper } from './scrapers/bmw-borusan-scraper.js'
